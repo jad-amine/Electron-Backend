@@ -8,8 +8,10 @@ class HomepageController extends Controller{
     
     public function getSomeItems(){
         return response()->json([
+            // check localstorage for token 
+            // query some items 
             "status" => "Success",
-            "restos" => 'hello world'
+            "restos" => 'some items + user name'
         ], 200);
     }
 }

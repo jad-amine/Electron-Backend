@@ -5,7 +5,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ItemController;
+use App\Http\Controllers\AuthController;
 
+// For JWT controller 
+// Route::controller(AuthController::class)->group(function () {
 
 Route::group(['prefix' => 'v1'], function(){
   //open API

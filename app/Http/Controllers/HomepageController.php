@@ -11,7 +11,7 @@ class HomepageController extends Controller{
             // check localstorage for token 
             // query some items 
             "status" => "Success",
-            "restos" => 'some items + user name'
+            "Items page" => 'some items + user name'
         ], 200);
     }
 }
